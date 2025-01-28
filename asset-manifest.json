@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Coffee-Shop/static/css/main.b29dd6f8.css",
-    "main.js": "/Coffee-Shop/static/js/main.36129135.js",
-    "static/media/Mask Group-2.jpeg": "/Coffee-Shop/static/media/Mask Group-2.68bb94f5cf204e02e5a1.jpeg",
-    "static/media/background1.jpg": "/Coffee-Shop/static/media/background1.ae4a7cfa28edca3cb4cb.jpg",
-    "static/media/Main bg.jpeg": "/Coffee-Shop/static/media/Main bg.8bde762e85a6814fb470.jpeg",
-    "static/media/item2.jpeg": "/Coffee-Shop/static/media/item2.8f171c745cae26b81430.jpeg",
-    "static/media/item3.jpeg": "/Coffee-Shop/static/media/item3.c27d1085613c973956e4.jpeg",
-    "static/media/Merienda-VariableFont_wght.ttf": "/Coffee-Shop/static/media/Merienda-VariableFont_wght.373b823211bb1d6f1f8b.ttf",
-    "static/media/Mask Group-1.jpeg": "/Coffee-Shop/static/media/Mask Group-1.c071f419acb10bc3a4cd.jpeg",
-    "static/media/item1.jpeg": "/Coffee-Shop/static/media/item1.4a88b75702ab3b9c8510.jpeg",
-    "static/media/81tGmkXdGLL.jpeg": "/Coffee-Shop/static/media/81tGmkXdGLL.62d0f3a41709e1cf9446.jpeg",
-    "static/media/Mask Group.png": "/Coffee-Shop/static/media/Mask Group.02362a2aef0ae2fa8369.png",
-    "static/media/Cup.jpg": "/Coffee-Shop/static/media/Cup.8067c9882589fa514e92.jpg",
-    "static/media/Beans logo-1.svg": "/Coffee-Shop/static/media/Beans logo-1.76f856813e8260eb890f3eafd3b0636d.svg",
-    "static/media/Beans logo.svg": "/Coffee-Shop/static/media/Beans logo.bda25d10401be289eba4309729b0cb14.svg",
-    "index.html": "/Coffee-Shop/index.html",
-    "main.b29dd6f8.css.map": "/Coffee-Shop/static/css/main.b29dd6f8.css.map",
-    "main.36129135.js.map": "/Coffee-Shop/static/js/main.36129135.js.map"
+    "main.css": "/static/css/main.243bd67b.css",
+    "main.js": "/static/js/main.caa886b3.js",
+    "static/media/Mask Group-2.jpeg": "/static/media/Mask Group-2.68bb94f5cf204e02e5a1.jpeg",
+    "static/media/background1.jpg": "/static/media/background1.ae4a7cfa28edca3cb4cb.jpg",
+    "static/media/Main bg.jpeg": "/static/media/Main bg.8bde762e85a6814fb470.jpeg",
+    "static/media/item2.jpeg": "/static/media/item2.8f171c745cae26b81430.jpeg",
+    "static/media/item3.jpeg": "/static/media/item3.c27d1085613c973956e4.jpeg",
+    "static/media/Merienda-VariableFont_wght.ttf": "/static/media/Merienda-VariableFont_wght.373b823211bb1d6f1f8b.ttf",
+    "static/media/Mask Group-1.jpeg": "/static/media/Mask Group-1.c071f419acb10bc3a4cd.jpeg",
+    "static/media/item1.jpeg": "/static/media/item1.4a88b75702ab3b9c8510.jpeg",
+    "static/media/81tGmkXdGLL.jpeg": "/static/media/81tGmkXdGLL.62d0f3a41709e1cf9446.jpeg",
+    "static/media/Mask Group.png": "/static/media/Mask Group.02362a2aef0ae2fa8369.png",
+    "static/media/Cup.jpg": "/static/media/Cup.8067c9882589fa514e92.jpg",
+    "static/media/Beans logo-1.svg": "/static/media/Beans logo-1.76f856813e8260eb890f3eafd3b0636d.svg",
+    "static/media/Beans logo.svg": "/static/media/Beans logo.bda25d10401be289eba4309729b0cb14.svg",
+    "index.html": "/index.html",
+    "main.243bd67b.css.map": "/static/css/main.243bd67b.css.map",
+    "main.caa886b3.js.map": "/static/js/main.caa886b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b29dd6f8.css",
-    "static/js/main.36129135.js"
+    "static/css/main.243bd67b.css",
+    "static/js/main.caa886b3.js"
   ]
 }
