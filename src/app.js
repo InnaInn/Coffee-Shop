@@ -17,21 +17,21 @@ class App extends React.Component {
                         <ul>
                             <li className='itemLogo'>
                                 <img className='headerLogo' src={LogoHeader} alt='Logo' />
-                                <Link to='/'>Coffee house</Link>
+                                <Link to='/Coffee-Shop/'>Coffee house</Link>
                             </li>
                             <li>
-                                <Link to='/our-coffee'>Our coffee</Link>
+                                <Link to='/Coffee-Shop/our-coffee'>Our coffee</Link>
                             </li>
                             <li>
-                                <Link to='/for-your-pleasure'>For your pleasure</Link>
+                                <Link to='/Coffee-Shop/for-your-pleasure'>For your pleasure</Link>
                             </li>
                         </ul>
                     </nav>
                     <Routes>
-                        <Route exact path='/' element={<MainPage />} />
-                        <Route path='/our-coffee' element={<OurCoffeePage />} />
-                        <Route path='/for-your-pleasure' element={<ForYourPleasure />} />
-                        <Route path='/app-about-it-goods/:id' element={<AboutItGoods data={data} />} />
+                        <Route exact path='/Coffee-Shop/' element={<MainPage />} />
+                        <Route path='/Coffee-Shop/our-coffee' element={<OurCoffeePage />} />
+                        <Route path='/Coffee-Shop/for-your-pleasure' element={<ForYourPleasure />} />
+                        <Route path='/Coffee-Shop/app-about-it-goods/:id' element={<AboutItGoods data={data} />} />
                     </Routes>
                 </div>
             </Router>

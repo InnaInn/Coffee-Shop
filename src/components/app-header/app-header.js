@@ -14,13 +14,13 @@ class AppHeader extends React.Component {
                     <ul>
                         <li className='itemLogo'>
                             <img className='headerLogo' src={LogoHeader} alt='Logo' />
-                            <Link to='/'>Coffee house</Link>
+                            <Link to='/Coffee-Shop/'>Coffee house</Link>
                         </li>
                         <li>
-                            <Link to='/our-coffee'>Our coffee</Link>
+                            <Link to='/Coffee-Shop/our-coffee'>Our coffee</Link>
                         </li>
                         <li>
-                            <Link to='/for-your-pleasure'>For your pleasure</Link>
+                            <Link to='/Coffee-Shop/for-your-pleasure'>For your pleasure</Link>
                         </li>
                     </ul>
                 </nav>
@@ -29,7 +29,7 @@ class AppHeader extends React.Component {
                     <img className="lineBeansLogoHeaderWhite" src={LineBeansLogoHeaderWhite} alt="LineBeansLogoHeader" />
                     <p className="headerTextSecondary">We makes every day full of energy and taste</p>
                     <p className="headerTextSecondary">Want to try our beans?</p>
-                    <Link className='moreInfoHeaderBtn' to='/our-coffee'>More</Link>
+                    <Link className='moreInfoHeaderBtn' to='/Coffee-Shop/our-coffee'>More</Link>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const RenderOneGoods = ({ name, production, price, id }) => {
     return (
-        <Link className="itemTitle" to={`/app-about-it-goods/${id}`}>
+        <Link className="itemTitle" to={`/Coffee-Shop/app-about-it-goods/${id}`}>
             <div className="rectangleBlockGoods">
                 <img className="itemOne" src={Item3} alt={name} />
                 <h4>{name}</h4>

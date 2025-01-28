@@ -15,7 +15,7 @@ class AppOurBest extends React.Component {
                 <div className='contentOurBest'>
                     <h2 className='contentOurBestTitle'>Our best</h2>
                     <div className='ourBestItem'>
-                        <Link to='/our-coffee' className="itemTitle">
+                        <Link to='/Coffee-Shop/our-coffee' className="itemTitle">
                             <div className='rectangleBlock'>
                                 <img className='itemOne' src={Item1} alt="Item1" />
                                 <h4>Solimo Coffee Beans 2 kg</h4>
@@ -23,14 +23,14 @@ class AppOurBest extends React.Component {
 
                             </div>
                         </Link>
-                        <Link to='/our-coffee' className="itemTitle">
+                        <Link to='/Coffee-Shop/our-coffee' className="itemTitle">
                             <div className='rectangleBlock'>
                                 <img className='itemOne' src={Item2} alt="Item1" />
                                 <h4>Presto Coffee Beans 1 kg</h4>
                                 <p className="priceTitle">15.99$</p>
                             </div>
                         </Link>
-                        <Link to='/our-coffee' className="itemTitle">
+                        <Link to='/Coffee-Shop/our-coffee' className="itemTitle">
                             <div className='rectangleBlock'>
                                 <img className='itemOne' src={Item3} alt="Item1" />
                                 <h4>AROMISTICO Coffee 1 kg</h4>

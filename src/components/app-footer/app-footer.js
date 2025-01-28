@@ -13,9 +13,9 @@ class AppFooter extends React.Component {
                 <div className="containerFooter">
                     <nav className='footerMenu' >
                         <ul>
-                            <li><img className='headerLogo' src={LogoFooter} alt="Logo" /> <Link to='/'>Coffee house</Link></li>
-                            <li><Link to='/our-coffee'>Our coffee</Link></li>
-                            <li><Link to='/for-your-pleasure'>For your pleasure</Link></li>
+                            <li><img className='headerLogo' src={LogoFooter} alt="Logo" /> <Link to='/Coffee-Shop/'>Coffee house</Link></li>
+                            <li><Link to='/Coffee-Shop/our-coffee'>Our coffee</Link></li>
+                            <li><Link to='/Coffee-Shop/for-your-pleasure'>For your pleasure</Link></li>
                         </ul>
                     </nav>
                     <div>
