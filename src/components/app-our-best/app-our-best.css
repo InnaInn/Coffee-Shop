@@ -1,0 +1,150 @@
+/*  Our Best */
+
+.containerOurBest {
+    position: relative;
+    width: 100%;
+    height: 508px;
+    overflow: hidden;
+
+}
+
+.contentOurBest {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contentOurBestTitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+}
+
+.ourBestItem {
+    position: absolute;
+    top: 115%;
+    left: -330%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+
+.rectangleBlock {
+    width: 220px;
+    height: 240px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.itemOne {
+    width: 151px;
+    height: 130px;
+}
+
+.itemTitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.itemTitle:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.7);
+}
+
+.priceTitle {
+    position: relative;
+    left: 30%;
+}
+
+/* Для экранов шириной до 760px */
+@media (max-width: 760px) {
+    .containerOurBest {
+        height: 400px;
+    }
+
+    .contentOurBest {
+        top: 15%;
+    }
+
+    .contentOurBestTitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ourBestItem {
+        top: 90%;
+        left: -250%;
+        gap: 50px;
+    }
+
+    .rectangleBlock {
+        width: 180px;
+        height: 200px;
+    }
+
+    .itemOne {
+        width: 120px;
+        height: 100px;
+    }
+
+    .itemTitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .priceTitle {
+        left: 25%;
+    }
+}
+
+/* Для экранов шириной до 320px */
+@media (max-width: 320px) {
+    .containerOurBest {
+        height: 300px;
+    }
+
+    .contentOurBest {
+        top: 10%;
+    }
+
+    .contentOurBestTitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ourBestItem {
+        top: 80%;
+        left: -150%;
+        gap: 30px;
+    }
+
+    .rectangleBlock {
+        width: 140px;
+        height: 160px;
+    }
+
+    .itemOne {
+        width: 100px;
+        height: 80px;
+    }
+
+    .itemTitle {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .priceTitle {
+        left: 20%;
+    }
+}

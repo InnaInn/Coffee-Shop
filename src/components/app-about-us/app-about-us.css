@@ -1,0 +1,90 @@
+.containerAboutUs {
+    margin: 80px 0px 101px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerAboutUs {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+}
+
+.aboutUsContent {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    max-width: 589px;
+
+}
+
+.first {
+    padding-top: 42px;
+}
+
+.lineBeansLogoHeaderBlack,
+.lineBeansLogoHeaderWhite {
+    width: 200px;
+    height: 30px;
+}
+
+
+@media (max-width: 760px) {
+    .containerAboutUs {
+        margin: 60px 0px 80px 0px;
+    }
+
+    .headerAboutUs {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .aboutUsContent {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 480px;
+    }
+
+    .first {
+        padding-top: 30px;
+    }
+
+    .lineBeansLogoHeaderBlack,
+    .lineBeansLogoHeaderWhite {
+        width: 160px;
+        height: 24px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .containerAboutUs {
+        margin: 40px 0px 60px 0px;
+    }
+
+    .headerAboutUs {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .aboutUsContent {
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 280px;
+    }
+
+    .first {
+        padding-top: 20px;
+    }
+
+    .lineBeansLogoHeaderBlack,
+    .lineBeansLogoHeaderWhite {
+        width: 120px;
+        height: 18px;
+    }
+}

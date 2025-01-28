@@ -1,0 +1,87 @@
+.conteinerAboutOurBeans {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+
+}
+
+.aboutOurBeansContent {
+    max-width: 350px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.imgBackground {
+    margin-top: 70px;
+}
+
+.contentAboutBeans {
+    margin-top: 80px;
+}
+
+hr {
+    width: 240px;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+
+@media (max-width: 760px) {
+    .conteinerAboutOurBeans {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .imgBackground {
+        margin-top: 50px;
+    }
+
+    .contentAboutBeans {
+        margin-top: 60px;
+    }
+
+    .aboutOurBeansContent {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 300px;
+    }
+
+    hr {
+        width: 200px;
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .conteinerAboutOurBeans {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imgBackground {
+        margin-top: 30px;
+    }
+
+    .contentAboutBeans {
+        margin-top: 40px;
+    }
+
+    .aboutOurBeansContent {
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 250px;
+    }
+
+    hr {
+        width: 150px;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,127 @@
+footer {
+    height: 150px;
+}
+
+.footerMenu {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.containerFooter {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.footerMenu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.footerMenu li {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+.footerMenu a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    color: black;
+    font-family: Merienda;
+
+}
+
+.footerLogo {
+    width: 35px;
+    height: 34px;
+
+
+}
+
+.logoBeansFooter {
+    margin-top: 120px;
+
+
+}
+
+
+@media (max-width: 760px) {
+    footer {
+        height: 120px;
+    }
+
+    .footerMenu {
+        margin-bottom: 15px;
+    }
+
+    .containerFooter {
+        margin-top: 40px;
+    }
+
+    .footerMenu ul {
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .footerMenu a {
+        font-size: 10px;
+    }
+
+    .footerLogo {
+        width: 30px;
+        height: 29px;
+    }
+
+    .logoBeansFooter {
+        margin-top: 80px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    footer {
+        height: 100px;
+    }
+
+    .footerMenu {
+        margin-bottom: 10px;
+    }
+
+    .containerFooter {
+        margin-top: -10px;
+    }
+
+    .footerMenu ul {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .footerMenu a {
+        font-size: 11px;
+    }
+
+    .footerLogo {
+        width: 25px;
+        height: 24px;
+    }
+
+    .logoBeansFooter {
+        margin-top: 60px;
+    }
+
+}

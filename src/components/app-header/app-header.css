@@ -1,0 +1,186 @@
+.backgroundImage,
+.backgroundImageOurBest {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerHeader {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+
+}
+
+
+.headerMenu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    margin-top: 52px;
+    margin-left: 148px;
+}
+
+.headerMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+
+}
+
+.headerMenu li {
+    display: flex;
+    align-items: flex-end;
+}
+
+.headerMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+}
+
+.headerLogo {
+    width: 35px;
+    height: 34px;
+
+}
+
+.contentHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.headerText {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0;
+}
+
+.headerTextSecondary {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0;
+}
+
+.moreInfoHeaderBtn {
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-family: "Merienda";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(196, 196, 196, 0);
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 3px;
+
+}
+
+.moreInfoHeaderBtn:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 769px) {
+    .containerHeader {
+        height: 480px;
+    }
+
+    .headerMenu {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .headerMenu a {
+        font-size: 10px;
+    }
+
+    .headerText {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .headerTextSecondary {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .moreInfoHeaderBtn {
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .containerHeader {
+        height: 320px;
+    }
+
+    .headerLogo {
+        display: none;
+    }
+
+    .headerMenu {
+        margin-top: 5px;
+
+    }
+
+
+    .headerMenu ul {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .headerMenu a {
+        font-size: 11px;
+    }
+
+    .headerText {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 60px;
+    }
+
+    .lineBeansLogoHeaderWhite {
+        display: none;
+    }
+
+    .headerTextSecondary {
+        font-size: 14px;
+        line-height: 20px;
+        display: none;
+    }
+
+    .moreInfoHeaderBtn {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+        padding-bottom: 20px;
+
+    }
+
+}

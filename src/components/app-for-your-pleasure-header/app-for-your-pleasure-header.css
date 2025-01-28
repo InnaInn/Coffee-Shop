@@ -1,0 +1,44 @@
+.contentOurCoffeeHeader {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+    ;
+}
+
+@media (max-width: 760px) {
+    .contentOurCoffeeHeader {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+    }
+
+    .titleOurCoffee {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .contentOurCoffeeHeader {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 14px;
+    }
+
+    .titleOurCoffee {
+        font-size: 20px;
+        margin-top: 5%;
+        text-align: center;
+
+    }
+
+    .backgroundImage {
+        height: 300px;
+    }
+}

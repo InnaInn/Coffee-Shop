@@ -1,0 +1,155 @@
+.containerGoods {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 62px;
+    gap: 90px;
+}
+
+.filterGoods {
+    display: flex;
+}
+
+.inputContent {
+    margin-left: 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 180px;
+    height: 30px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Merienda;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+
+}
+
+.buttonFilter {
+    margin-left: 35px;
+}
+
+.coffeeName {
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+    font-family: Merienda;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.coffeeName:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.7);
+}
+
+
+.ourBestItemGoods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.rectangleBlockGoods {
+    margin: 60px 0px 30px 0px;
+    padding-top: 22px;
+    width: 220px;
+    height: 260px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+@media (max-width: 760px) {
+
+
+    .containerGoods {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .filterGoods {
+        margin-left: 252px;
+    }
+
+    .inputContent {
+        width: 150px;
+        height: 25px;
+    }
+
+    .buttonFilter {
+        margin-left: 20px;
+    }
+
+    .coffeeName {
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .ourBestItemGoods {
+        gap: 50px;
+    }
+
+    .rectangleBlockGoods {
+        width: 180px;
+        height: 220px;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .containerGoods {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .filterGoods {
+        margin-left: 46px;
+    }
+
+    .inputContent {
+        width: 120px;
+        height: 20px;
+    }
+
+    .buttonFilter {
+        margin-left: 10px;
+    }
+
+    .coffeeName {
+        width: 50px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .ourBestItemGoods {
+        gap: 30px;
+    }
+
+    .rectangleBlockGoods {
+        width: 140px;
+        height: 180px;
+    }
+}
