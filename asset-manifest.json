@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/https//InnaInn.github.io/Coffee-Shop/static/css/main.b68ea9a3.css",
+    "main.js": "/https//InnaInn.github.io/Coffee-Shop/static/js/main.a0225ef3.js",
+    "static/media/Mask Group-2.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Mask Group-2.68bb94f5cf204e02e5a1.jpeg",
+    "static/media/background1.jpg": "/https//InnaInn.github.io/Coffee-Shop/static/media/background1.ae4a7cfa28edca3cb4cb.jpg",
+    "static/media/Main bg.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Main bg.8bde762e85a6814fb470.jpeg",
+    "static/media/item2.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/item2.8f171c745cae26b81430.jpeg",
+    "static/media/item3.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/item3.c27d1085613c973956e4.jpeg",
+    "static/media/Merienda-VariableFont_wght.ttf": "/https//InnaInn.github.io/Coffee-Shop/static/media/Merienda-VariableFont_wght.373b823211bb1d6f1f8b.ttf",
+    "static/media/Mask Group-1.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Mask Group-1.c071f419acb10bc3a4cd.jpeg",
+    "static/media/item1.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/item1.4a88b75702ab3b9c8510.jpeg",
+    "static/media/81tGmkXdGLL.jpeg": "/https//InnaInn.github.io/Coffee-Shop/static/media/81tGmkXdGLL.62d0f3a41709e1cf9446.jpeg",
+    "static/media/Mask Group.png": "/https//InnaInn.github.io/Coffee-Shop/static/media/Mask Group.02362a2aef0ae2fa8369.png",
+    "static/media/Cup.jpg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Cup.8067c9882589fa514e92.jpg",
+    "static/media/Beans logo-1.svg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Beans logo-1.6ae2184ebcc5de540eb2b369aa54786a.svg",
+    "static/media/Beans logo.svg": "/https//InnaInn.github.io/Coffee-Shop/static/media/Beans logo.c2dcd39b707baf4c7ce20c4ffe1cb86a.svg",
+    "index.html": "/https//InnaInn.github.io/Coffee-Shop/index.html",
+    "main.b68ea9a3.css.map": "/https//InnaInn.github.io/Coffee-Shop/static/css/main.b68ea9a3.css.map",
+    "main.a0225ef3.js.map": "/https//InnaInn.github.io/Coffee-Shop/static/js/main.a0225ef3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b68ea9a3.css",
+    "static/js/main.a0225ef3.js"
+  ]
+}
