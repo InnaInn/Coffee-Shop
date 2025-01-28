@@ -21,10 +21,14 @@ class AppOurCoffeeGoods extends React.Component {
     };
 
     handleFilterChange = (filter) => {
-        const filteredData = data.filter(item =>
-            item.production.toLowerCase() === filter.toLowerCase()
-        );
-        this.setState({ selectedFilter: filter, filteredData });
+        if (this.state.selectedFilter === filter) {
+            this.setState({ selectedFilter: '', filteredData: data });
+        } else {
+            const filteredData = data.filter(item =>
+                item.production.toLowerCase() === filter.toLowerCase()
+            );
+            this.setState({ selectedFilter: filter, filteredData });
+        }
     };
 
     render() {

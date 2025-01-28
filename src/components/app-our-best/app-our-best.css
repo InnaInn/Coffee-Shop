@@ -84,7 +84,6 @@
 
     .ourBestItem {
         top: 90%;
-        left: -250%;
         gap: 50px;
     }
 
@@ -111,7 +110,7 @@
 /* Для экранов шириной до 320px */
 @media (max-width: 320px) {
     .containerOurBest {
-        height: 300px;
+        height: 700px;
     }
 
     .contentOurBest {
@@ -121,12 +120,16 @@
     .contentOurBestTitle {
         font-size: 16px;
         line-height: 24px;
+        margin-top: -70%;
     }
 
     .ourBestItem {
         top: 80%;
-        left: -150%;
+        left: -60%;
         gap: 30px;
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .rectangleBlock {
