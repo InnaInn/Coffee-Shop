@@ -17,7 +17,6 @@
 .headerMenu {
     position: absolute;
     top: 0;
-    width: 100%;
     color: white;
     margin-top: 52px;
     margin-left: 148px;
@@ -103,18 +102,19 @@
     box-shadow: 0 8px 12px rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 769px) {
-    .containerHeader {
-        height: 480px;
-    }
+@media all and (min-width: 767px) and (max-width: 1279px) {
 
     .headerMenu {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 55px;
     }
 
     .headerMenu a {
-        font-size: 10px;
+        font-size: 20px;
+    }
+
+    .contentHeader {
+        left: 43%;
     }
 
     .headerText {
@@ -135,7 +135,7 @@
 }
 
 
-@media (max-width: 320px) {
+@media all and (min-width: 319px) and (max-width: 767px) {
     .containerHeader {
         height: 320px;
     }
@@ -146,9 +146,8 @@
 
     .headerMenu {
         margin-top: 5px;
-
+        margin-left: 26px;
     }
-
 
     .headerMenu ul {
         margin-top: 30px;

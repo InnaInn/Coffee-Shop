@@ -9,7 +9,7 @@
     ;
 }
 
-@media (max-width: 760px) {
+@media all and (min-width: 767px) and (max-width: 1279px) {
     .contentOurCoffeeHeader {
         top: 30%;
         left: 50%;
@@ -19,11 +19,12 @@
 
     .titleOurCoffee {
         font-size: 24px;
+        
     }
 }
 
 
-@media (max-width: 320px) {
+@media all and (min-width: 319px) and (max-width: 767px) {
     .contentOurCoffeeHeader {
         top: 25%;
         left: 50%;
@@ -33,7 +34,7 @@
 
     .titleOurCoffee {
         font-size: 20px;
-        margin-top: 5%;
+        margin-top: -90px;
         text-align: center;
 
     }

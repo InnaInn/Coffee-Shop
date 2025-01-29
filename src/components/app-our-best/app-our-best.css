@@ -67,8 +67,8 @@
     left: 30%;
 }
 
-/* Для экранов шириной до 760px */
-@media (max-width: 760px) {
+
+@media all and (min-width: 767px) and (max-width: 1279px) {
     .containerOurBest {
         height: 400px;
     }
@@ -107,8 +107,8 @@
     }
 }
 
-/* Для экранов шириной до 320px */
-@media (max-width: 320px) {
+
+@media all and (min-width: 319px) and (max-width: 767px) {
     .containerOurBest {
         height: 700px;
     }

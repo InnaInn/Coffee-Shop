@@ -31,7 +31,7 @@ hr {
 }
 
 
-@media (max-width: 760px) {
+@media all and (min-width: 767px) and (max-width: 1279px) {
     .conteinerAboutOurBeans {
         flex-direction: column;
         align-items: center;
@@ -59,7 +59,7 @@ hr {
 }
 
 
-@media (max-width: 320px) {
+@media all and (min-width: 319px) and (max-width: 767px) {
     .conteinerAboutOurBeans {
         flex-direction: column;
         align-items: center;
