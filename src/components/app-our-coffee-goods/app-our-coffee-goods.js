@@ -8,7 +8,8 @@ class AppOurCoffeeGoods extends React.Component {
     state = {
         searchTerm: '',
         filteredData: data,
-        selectedFilter: ''
+        selectedFilter: '',
+        focusedButton: ''
     };
 
     handleInputChange = (event) => {
@@ -22,12 +23,12 @@ class AppOurCoffeeGoods extends React.Component {
 
     handleFilterChange = (filter) => {
         if (this.state.selectedFilter === filter) {
-            this.setState({ selectedFilter: '', filteredData: data });
+            this.setState({ selectedFilter: '', filteredData: data, focusedButton: '' });
         } else {
             const filteredData = data.filter(item =>
                 item.production.toLowerCase() === filter.toLowerCase()
             );
-            this.setState({ selectedFilter: filter, filteredData });
+            this.setState({ selectedFilter: filter, filteredData, focusedButton: filter });
         }
     };
 
@@ -52,9 +53,24 @@ class AppOurCoffeeGoods extends React.Component {
                             Or filter
                         </div>
                         <div className="buttonFilter">
-                            <button className="coffeeName" onClick={() => this.handleFilterChange('Brazil')}>Brazil</button>
-                            <button className="coffeeName" onClick={() => this.handleFilterChange('Kenya')}>Kenya</button>
-                            <button className="coffeeName" onClick={() => this.handleFilterChange('Columbia')}>Columbia</button>
+                            <button
+                                className={`coffeeName ${this.state.focusedButton === 'Brazil' ? 'focused' : ''}`}
+                                onClick={() => this.handleFilterChange('Brazil')}
+                            >
+                                Brazil
+                            </button>
+                            <button
+                                className={`coffeeName ${this.state.focusedButton === 'Kenya' ? 'focused' : ''}`}
+                                onClick={() => this.handleFilterChange('Kenya')}
+                            >
+                                Kenya
+                            </button>
+                            <button
+                                className={`coffeeName ${this.state.focusedButton === 'Columbia' ? 'focused' : ''}`}
+                                onClick={() => this.handleFilterChange('Columbia')}
+                            >
+                                Columbia
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -51,10 +51,10 @@ input::placeholder {
     cursor: pointer;
 }
 
-.coffeeName:hover {
-    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.7);
-}
+.coffeeName.focused {
+    background-color: #FFDEAD;
 
+}
 
 .ourBestItemGoods {
     display: flex;
@@ -151,5 +151,6 @@ input::placeholder {
     .rectangleBlockGoods {
         width: 140px;
         height: 180px;
+        margin-bottom: -60px;
     }
 }
